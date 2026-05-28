@@ -1,32 +1,24 @@
-# Obras Gestor - versão completa
+# Obras Gestor - Admin + Portal Público
 
-Itens implantados:
-1. Login e usuários com Supabase Auth
-2. Demandas completas: criar, editar, alterar status, filtros, anexar foto e gerar OS
-3. Ordens de serviço: criar, atribuir equipe, iniciar, concluir, observações e fotos antes/depois
-4. Upload de fotos em demandas e OS
-5. Relatórios: demandas por bairro, OS concluídas, estoque crítico, produtividade e exportação CSV/PDF
+Inclui:
+- Portal público sem login para cidadão reportar demandas
+- Consulta por protocolo
+- Área administrativa com login
+- Gestão de usuários/perfis
+- Gestão de equipes
+- Gestão de materiais/estoque
+- Gestão de demandas
+- Gestão de ordens de serviço
+- Fotos em demandas e OS
+- Relatórios e exportação CSV
 
-## Publicar na Vercel
+Antes de publicar, rode no Supabase o arquivo:
+supabase-complemento-admin-publico.sql
 
-Configurações:
-- Framework: Vite
-- Build Command: npm run build
-- Output Directory: dist
-- Install Command: npm install
+Administração:
+adicione #admin ao final da URL ou clique em Área administrativa.
 
-## Atualizar GitHub
-
-Substitua os arquivos do projeto antigo por estes arquivos, depois rode:
-
-```bash
+Publicar:
 git add .
-git commit -m "Implanta login, demandas, OS, fotos e relatorios"
+git commit -m "Implanta admin completo e portal publico"
 git push
-```
-
-Depois faça redeploy na Vercel.
-
-## Observação sobre fotos
-
-Nesta versão MVP, as fotos são salvas como Data URL diretamente nas colunas foto_url/os_fotos. Para produção com muitas fotos, o ideal é migrar para Supabase Storage.
