@@ -22,3 +22,11 @@ Publicar:
 git add .
 git commit -m "Implanta admin completo e portal publico"
 git push
+
+
+## Recurso de rotas
+
+Na tela Demandas, use o botão "Gerar rota por categoria".
+Exemplo: digite "Entulho" para abrir uma rota no Google Maps com as demandas de entulho que possuem latitude/longitude.
+
+Observação: para a rota funcionar, o cidadão deve clicar em "Usar minha localização" ao enviar a demanda.
