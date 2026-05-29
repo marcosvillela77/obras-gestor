@@ -30,3 +30,7 @@ Na tela Demandas, use o botão "Gerar rota por categoria".
 Exemplo: digite "Entulho" para abrir uma rota no Google Maps com as demandas de entulho que possuem latitude/longitude.
 
 Observação: para a rota funcionar, o cidadão deve clicar em "Usar minha localização" ao enviar a demanda.
+
+
+## Visual Pro
+Melhorias visuais em sidebar, portal público, login, cards, botões, espaçamento, responsividade e hierarquia visual.
